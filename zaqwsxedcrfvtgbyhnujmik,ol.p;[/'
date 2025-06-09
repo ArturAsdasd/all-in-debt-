@@ -1,0 +1,7 @@
+import random
+simbols= "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+take= int (input ("code , length ? "))
+parol= ""
+for i in range (take) :
+    parol+=random.choice (simbols)
+print (parol)
